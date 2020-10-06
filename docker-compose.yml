@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  buy-server:
+    container_name: NODEJS_SERVER_BUY
+    build: "."
+    volumes:
+      - ./src:/node-app
+      - ./node_modules:/node-app/node_modules
+    environment:
+      NODE_ENV: development
+    ports:
+      - "5000:5000"
+
+networks:
+  default:
+    external:
+      name: customnet
