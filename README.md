@@ -2,9 +2,9 @@
 Api for placing buying orders integrated with the Stock API [Stock management](https://github.com/nathangngencissk/stock-management), done in NodeJS + MongoDB.
 
 ## How it works
-[Class Diagram](https://raw.githubusercontent.com/nathangngencissk/buy-module/master/diagram.png)
+![Class Diagram](https://raw.githubusercontent.com/nathangngencissk/buy-module/master/diagram.png)
 
-[Process Diagram](https://raw.githubusercontent.com/nathangngencissk/buy-module/master/process_buy.png)
+![Process Diagram](https://raw.githubusercontent.com/nathangngencissk/buy-module/master/process_buy.png)
 
 There are 2 main features.
 
