@@ -51,9 +51,9 @@ module.exports = () => {
         });
 
         let offer = {
-            "shop": "5f750f9d6b26310012eaea14",
-            "product": "5f77aae8b7c512002e0f1cf6",
-            "warehouse": "5f77ac24b7c512002e0f1cf9",
+            "shop": req.session.pricingPayload.shop,
+            "product": req.session.pricingPayload.product,
+            "warehouse": req.session.pricingPayload.warehouse,
             "supplier": bestOffer.supplier,
             "value": bestOffer.value,
             "unitaryValue": bestOffer.unitaryValue,
